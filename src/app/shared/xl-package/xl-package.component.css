@@ -1,0 +1,137 @@
+.pb-500{
+   padding-bottom: 500px;
+  }
+  
+  .section-title-2 {
+     position: relative;
+     z-index: 1;
+   }
+   
+  .section-title-2 .bars_azul {
+     padding-top: 40px;
+   }
+   .section-title-2 .bars_azul:before {
+     content: "";
+     background: #22D7FC;
+     width: 50px;
+     height: 4px;
+     align-self: center;
+     position: absolute;
+     top: 0px;
+     margin-left: 60px;
+   }
+
+
+
+   .section-title-2 .bars_fucsia{
+      padding-top: 40px;
+    }
+    .section-title-2 .bars_fucsia:before {
+      content: "";
+      background: #FA3CC8;
+      width: 50px;
+      height: 4px;
+      align-self: center;
+      position: absolute;
+      top: 0px;
+      margin-left: 60px;
+    }
+
+
+    .section-title-2 .bars_morado{
+      padding-top: 40px;
+    }
+    .section-title-2 .bars_morado:before {
+      content: "";
+      background: #B125EC;
+      width: 50px;
+      height: 4px;
+      align-self: center;
+      position: absolute;
+      top: 0px;
+      margin-left: 60px;
+    }
+
+    .section-title-2 .bars_azul_fuerte{
+      padding-top: 40px;
+    }
+    .section-title-2 .bars_azul_fuerte:before {
+      content: "";
+      background: #6B5FF5;
+      width: 50px;
+      height: 4px;
+      align-self: center;
+      position: absolute;
+      top: 0px;
+      margin-left: 60px;
+    }
+ 
+   .mb-10{
+      margin-bottom: 10px;
+   }
+   
+   .reels-wrap{
+     width: 290px;
+     height: 500px;
+     z-index: 1;
+   }
+    
+  .reels-wrap .reels-price h4 {
+     padding-top: 57px;
+     font-size: 20px;
+     color: #fff;
+  }
+  
+  
+.reels-wrap .reels-sale p {
+     padding-top: 8px;
+     color: #fff;
+   }
+  
+  
+  
+  .reels-wrap .reels-price {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  .reels-wrap  .reels-month {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  
+  .reels-wrap .reels-price p {
+     color: #fff;
+  }
+  
+  .reels-wrap .reels-title{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  
+
+  .reels-wrap .reels-content{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     padding-left: 40px;
+  }
+  
+  .reels-wrap .reels-sale{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+
+  
+  .reels-wrap .reels-content li{
+     font-size: 0.8rem;
+  }
+  
+  .reels-wrap .reels-content ul li {
+     color: #0D0D60;
+  }

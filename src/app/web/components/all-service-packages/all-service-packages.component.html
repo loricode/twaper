@@ -1,0 +1,56 @@
+<div class="service-area-2 bg-fix pt-30 pb-100" >
+   <div class="container">
+      <div class="row justify-content-center mt-130">
+         <div class="col-xl-12 col-lg-12">
+            <div class="section-title-2 bar-theme-color text-white text-center mb-60">
+               <h3 class="bars">
+                  Un mix di ingredienti di qualità
+                  Scegli il tuo pacchetto
+               </h3>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-xl-12">
+            <div class="service-slider-3">
+               <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="container" 
+                      style="padding-left: 20px; padding-right: 20px;">
+                     <carousel
+                        class="all-service"
+                        [cellsToShow]="3"
+                        [cellWidth]="'100%'"
+                        style="height: 320px; padding-left: 80px; padding-right: 80px;position: relative;z-index: 500;">
+                         
+                        <div class="carousel-cell card-width"  *ngFor="let item of items">
+                        <div class="swiper-slide single-slide">
+                        <div class="service-wrap-3">
+                           <div class="service-icon">
+                              <div class="icon">
+                                 <img class="img-fluid" style="width: 50px;" [src]="item.image" alt="igtv">
+
+                              </div>
+                              <div class="num">{{item.id}}</div>
+                           </div>
+                           <div class="service-content">
+                              <h3><a href="service.html">{{item.title}}</a></h3>
+                              <p>
+                                {{item.description}}
+                              </p>
+                              <a href="service.html" class="read-more">
+                                 Read more <i class="fas fa-angle-double-right"></i>
+                              </a>
+                           </div>
+                        </div>
+                         </div>
+                        </div>
+                     </carousel>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

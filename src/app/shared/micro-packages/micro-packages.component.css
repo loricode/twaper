@@ -1,0 +1,109 @@
+
+.pb-350{
+   padding-bottom: 490px;
+}
+
+.pb-100{
+   padding-bottom: 350px;
+}
+
+
+
+.section-title-2 {
+   position: relative;
+   z-index: 1;
+ }
+ 
+.section-title-2 .bars {
+   padding-top: 40px;
+ }
+ .section-title-2 .bars:before {
+   content: "";
+   background: #FA3CC8;
+   width: 50px;
+   height: 4px;
+   align-self: center;
+   position: absolute;
+   top: 0px;
+   margin-left: 60px;
+ }
+
+ .mb-10{
+    margin-bottom: 10px;
+ }
+ 
+ .reels-wrap{
+   width: 290px;
+   height: 500px;
+   z-index: 1;
+ }
+
+ .bg-reels-img{
+   background-image: url("../../../assets/img/img-packages/pachetti_power.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 400px;
+   position: absolute;
+ }
+
+.reels-wrap .reels-price {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reels-wrap  .reels-month {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reels-wrap .reels-price h4 {
+   padding-top: 79px;
+   font-size: 22px;
+   color: #fff;
+}
+
+.reels-wrap .reels-price p {
+   color: #fff;
+}
+
+.reels-wrap .reels-title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reels-wrap .reels-title h4 {
+   font-size: 18px;
+   font-weight: 600;
+   color: #FA3CC8;
+}
+
+
+.reels-wrap .reels-content{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 40px;
+}
+
+.reels-wrap .reels-sale{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reels-wrap .reels-sale p {
+  padding-top: 3px;
+  color: #fff;
+}
+
+.reels-wrap .reels-content li{
+   font-size: 0.8rem;
+}
+
+
+.reels-wrap .reels-content ul li {
+   color: #0D0D60;
+}

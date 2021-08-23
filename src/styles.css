@@ -1,1 +1,137 @@
 /* You can add global styles to this file, and also import other style files */
+
+.carousel-container {
+   overflow: hidden;
+   width: 100% !important;
+   height: 90%;
+   /* margin-left: 130px !important; */
+   cursor: grab;
+   
+}
+
+.carousel-cells .carousel-cell .card-width {
+   width: 230px !important;
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+}
+
+
+.custom  .carousel-container {
+   overflow: hidden;
+   width: 100%;
+   height: 55% !important;
+   cursor: grab;
+}
+
+.custom  .carousel-cells .carousel-cell{
+   width: 100px !important;
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+}
+
+.all-service  .carousel-cells {
+   transition: transform .2s;
+   width: 100%;
+   height: 90% !important;
+   display: block;
+   will-change: transform;
+}
+
+.all-service  .carousel-cells {
+   transition: transform .2s;
+   width: 100%;
+   height: 100% !important;
+   display: block;
+   will-change: transform;
+}
+
+.all-service .carousel-cells  {
+   width: 230px !important;
+}
+
+
+.organize-arrow .carousel-arrows .carousel-arrow-prev{
+   left: 1000px !important;
+   top: -60px;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+
+}
+
+.organize-arrow .carousel-arrows .carousel-arrow-next{
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+
+}
+
+
+.organize-arrow  .carousel-arrow {
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   background-repeat: no-repeat;
+   background-size: 31px;
+   background-position: 90%;
+   border-radius: 100px;
+   position: absolute;
+   top: -70px !important;
+   margin-top: -150px;
+   z-index: 10;
+   cursor: pointer;
+   box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+
+
+
+
+.bestsellers-arrow .carousel-arrows .carousel-arrow-prev{
+   left: 600px !important;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+
+}
+
+.bestsellers-arrow .carousel-arrows .carousel-arrow-next{
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+}
+
+
+.bestsellers-arrow  .carousel-arrow {
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   background-repeat: no-repeat;
+   background-size: 31px;
+   background-position: 90%;
+   border-radius: 100px;
+   position: absolute;
+   top: 37px !important;
+   margin-top: -100px;
+   z-index: 10;
+   cursor: pointer;
+   box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+ 
+.dropdown-menu {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   z-index: 1000;
+   display: none;
+   float: left;
+   min-width: 4rem !important;
+   padding: .5rem 0;
+   margin: .125rem 0 0;
+   font-size: 1rem;
+   color: #212529;
+   text-align: left;
+   list-style: none;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid rgba(0,0,0,.15);
+   border-radius: .25rem;
+}
