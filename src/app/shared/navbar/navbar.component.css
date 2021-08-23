@@ -211,8 +211,29 @@
     padding-left: 10px;
  }
 
-
+/*
  .icono .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
+} */
+
+
+
+.navbar-brand  .logo-app-dos {
+  display: none;
+ 
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar-brand  .logo-app {
+    display: none;
+   }
+
+  .navbar-brand .logo-app-dos {
+    display: inline-block;
+   }
+
+   
 }
