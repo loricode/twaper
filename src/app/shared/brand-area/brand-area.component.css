@@ -4,3 +4,10 @@
    background-size: 100% 138px;
    background-repeat: no-repeat;
 }
+
+
+@media (max-width: 300px){
+   .bk-image-brand{
+      display: none;
+   }
+}
