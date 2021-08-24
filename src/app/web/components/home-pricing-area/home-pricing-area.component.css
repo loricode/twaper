@@ -368,3 +368,21 @@
 .mb-30{
   margin-bottom: 30px;
 }
+
+
+@media (max-width: 300px) {
+
+  .section-title-2 h3{
+    font-size: 1rem;
+  
+  }
+
+  .pricing-area   .section-title-2   h3{
+    width: 240px;
+  }
+
+  .shape img {
+    background-size: 100%;
+  }
+
+}

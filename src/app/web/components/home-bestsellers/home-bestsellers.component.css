@@ -86,3 +86,23 @@
   font-size: 0.9rem;
   float: left;
 }
+
+.bgdos{
+  display: none;
+}
+
+@media (max-width: 300px) {
+
+  .bg-fix{
+    display: none;
+  } 
+
+  .bgdos{
+  
+    background-color: #0D0D60;
+    display:table-cell;
+  
+  }
+ 
+
+}

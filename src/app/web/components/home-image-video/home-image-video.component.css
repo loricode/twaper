@@ -1,4 +1,5 @@
 .about-area-2 {
+    
    position: relative;
    overflow: hidden;
  }
@@ -177,6 +178,10 @@
    background-image: linear-gradient(to right, #22D7FC , #B125EC, #FA3CC8);
 }
 
+.pb-90{
+  padding-bottom: 90px;
+}
+
 .btn {
   padding: 24px 50px;
   border-radius: 0;
@@ -195,4 +200,42 @@
  .pt-35 {
    padding-top: 35px;
  }
+
+ .btnDos{
+   display: none;
+ }
+
+ @media (max-width: 300px) {
+.bg-black{
+  background-color: #F2F3FC;
+}
+
+.pt-130 {
+  padding-top: 0px;
+}
+
+.btnDos{
+  display: inline-block;
+}
+
+.btnUno{
+  display: none;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 17px 30px;
+  border-radius: 0;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+ }
  
+
