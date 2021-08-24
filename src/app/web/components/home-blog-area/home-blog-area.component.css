@@ -634,6 +634,10 @@
     margin-bottom: 30px;
  }
 
+ .vista-movil{
+    display: none;
+}  
+
  @media (max-width: 300px) {
   .bk-image-blog  {
     display: none;

@@ -11,10 +11,10 @@ const routes: Routes = [
     path:'', 
     loadChildren:() => import('./web/web.module').then( m => m.WebModule )
   },
-  // { 
-  //   path:'auth', 
-  //   loadChildren:() => import('./auth/auth.module').then( m => m.AuthModule )
-  // },
+  { 
+    path:'auth', 
+    loadChildren:() => import('./auth/auth.module').then( m => m.AuthModule )
+  },
 //  {path:"**", redirectTo:''}
 ];
 

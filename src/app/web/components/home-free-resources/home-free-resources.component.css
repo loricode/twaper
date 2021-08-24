@@ -214,3 +214,11 @@
  .w-xl-20 {
    max-width: 20%;
 }
+
+
+@media (max-width: 300px) {
+
+  .bk-image{
+    display: none;
+  }
+}

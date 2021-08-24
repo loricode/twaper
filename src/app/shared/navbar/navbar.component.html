@@ -70,6 +70,8 @@
 			</a>
 			<a class="navbar-brand " >  
 				<img class="img-fluid  logo-app-dos"
+				  type="button"
+				  (onClick)="logoClick()"
 				  width="35px"
 				  src="../../../assets/icons/twaper_logo_08.svg"
 				  alt="logoAl"/>
@@ -108,7 +110,7 @@
 			<app-language></app-language>
 		 </span>
 		 <span class="navbar-text">
-			 LOGIN
+			<a routerLink="/auth/login">LOGIN</a>
 		 </span>
 	  </div>
 	</div>

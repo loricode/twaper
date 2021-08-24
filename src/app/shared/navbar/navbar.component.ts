@@ -9,4 +9,9 @@ export class NavbarComponent {
 
   constructor() { }
 
+ public logoClick():void {
+      console.log("click")
+ }
+  
+
 }
