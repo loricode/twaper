@@ -208,3 +208,91 @@
    }
 
 }
+
+/* auth */
+.loginweb{
+   background-image: url('./assets/img/utils/bkg_imagenlogin.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.tamanio{
+   width: 25rem;
+   background-color:#fff
+ }
+
+
+ @media (max-width: 1216px) {
+   .email{
+       font-size: 0.7rem;
+       outline: none;
+       width: 24rem;
+   }
+   .tamanio{
+      width: 24rem;
+      background-color:#fff
+    }
+}
+
+@media (max-width: 1181px) {
+   .email{
+       font-size: 0.7rem;
+       outline: none;
+       width: 22rem;     
+   }
+   .tamanio{
+      width: 22rem;
+      background-color:#fff
+    }
+}
+
+@media (max-width: 1080px) {
+   .email{
+       font-size: 0.7rem;
+       outline: none;
+       width: 21rem;   
+   }
+   .tamanio{
+      width: 21rem;
+      background-color:#fff
+    }
+}
+
+@media (max-width: 1080px) {
+   .email{
+       font-size: 0.7rem;
+       outline: none;
+       width: 19rem;    
+   }
+   .tamanio{
+      width: 19rem;
+      background-color:#fff
+    }
+}
+
+@media (min-width: 1280px) {
+   .textfiel{
+       font-size: 0.7rem;
+       outline: none;
+       width: 25.1rem;
+   }
+   .tamanio{
+      width: 25.1rem;
+      background-color:#fff
+    }
+}
+
+.loginmovil{
+   display: none;
+}
+
+@media (max-width: 957px) {   
+  
+   .loginmovil{
+      display: inline-block;
+   }
+   .loginweb{
+     display: none;
+   }
+
+}

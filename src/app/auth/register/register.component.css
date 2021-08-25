@@ -3,6 +3,16 @@
    border-radius: 12px !important;
 }
 
+.password:focus{
+   outline: none;
+   box-shadow: none; 
+}
+
+.email:focus{
+   outline: none;
+   box-shadow: none 
+}
+
 .botonlogin{
    color: #fff;
    background-color: #B125EC;
@@ -17,3 +27,30 @@
    cursor: pointer;
    border-radius: 12px;
 }
+
+.wrapper {
+   display: grid;
+   grid-template-columns:48% 48%;
+
+   grid-gap: 10px;
+   grid-auto-rows: minmax(100px, auto);
+ }
+
+ .two {
+   grid-row: 1 / 8;
+   background-color: transparent;
+ }
+
+ .one{
+   grid-row: 1 / 8;
+   background-color: aqua;
+ }
+
+ .pr-20{
+    padding-right: 12rem;
+ }
+
+ .bg-input{
+   width: 25rem;
+   background-color:#fff;
+ }

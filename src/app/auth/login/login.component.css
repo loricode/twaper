@@ -13,6 +13,12 @@
    border-radius: 12px !important;
 }
 
+.email{
+   font-size: 0.7rem;
+    outline: none;
+    width: 25rem;
+}
+
 .containerboton{
    position: absolute;
    left: 28%;
@@ -45,11 +51,7 @@
 }
 
 
-.loginweb{
-   background-image: url('../../../assets/img/utils/bkg_imagenlogin.png');
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
-}
+
 
 .wrapper {
    display: grid;
@@ -72,6 +74,8 @@
  .pr-20{
     padding-right: 12rem;
  }
+
+
 
 
 

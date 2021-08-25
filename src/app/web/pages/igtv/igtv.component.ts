@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-igtv',
   templateUrl: './igtv.component.html',
   styleUrls: ['./igtv.component.css']
 })
-export class IgtvComponent {
+export class IgtvComponent implements OnInit {
 
   title ="IGTV"
   imagen = "../../../assets/img/img-services/single_service_bkg.png"
@@ -14,5 +14,9 @@ export class IgtvComponent {
 
   
   constructor() { }
+
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 
 }

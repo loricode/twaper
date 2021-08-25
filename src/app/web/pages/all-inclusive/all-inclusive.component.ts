@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-all-inclusive',
   templateUrl: './all-inclusive.component.html',
   styleUrls: ['./all-inclusive.component.css']
 })
-export class AllInclusiveComponent {
+export class AllInclusiveComponent implements OnInit {
 
   title ="ALL INCLUSIVE"
   imagen = "../../../assets/img/img-services/single_service_bkg.png"
@@ -14,4 +14,7 @@ export class AllInclusiveComponent {
 
   constructor() { }
 
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

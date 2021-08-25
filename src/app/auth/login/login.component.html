@@ -1,6 +1,6 @@
 <app-navbar></app-navbar> 
 <main>
-<div class="container pt-3 " style="display: none;">
+<div class="container pt-3 loginmovil">
 
    <div class="row justify-content-center pt-3">
        <div class="col-lg-4 col-sm-12">
@@ -92,12 +92,12 @@
                                  </p>
                                                
                                <div style="text-align: center;">       
-                                <a  style="font-size: 0.8rem;"
+                                  <a  style="font-size: 0.8rem;"
                                     routerLink="/auth/register">
                                     Register
-                                </a>
+                                  </a>
                                </div>
-                        </div>
+                          </div>
 
                         <div class="row p-2">
                            <div class="col-6">
@@ -110,20 +110,15 @@
                                  <a style="font-size: 0.8rem;" href="">Privacy Policy</a>
                              </div>
                            </div>
-                        </div>
-                  
+                        </div>        
                </div>
            </div>
        </div>
    </div>
-
 </div>
 
 
-
-
-       <div class="loginweb ">
-
+<div class="loginweb">
          <div class="wrapper">
             <div class="one" style="visibility: hidden;">
                etete
@@ -132,39 +127,34 @@
             <form [formGroup]="authForm" >
                <div class="card-body px-2">  
                     <div class="d-flex justify-content-center pr-20 pb-0 pt-5">
-                       <h2 class="pt-3 pb-5" style="color:gray;font-weight: bold;"> Login</h2>
+                       <h2 class="pt-3 pb-5" style="color:gray;font-weight: bold;">
+                         Login
+                      </h2>
                     </div>
                          
-                    <div class="mb-3 d-flex border p-1 rounded tamanio"
-                     style="width: 25rem;background-color:#fff">  
-                    
+                    <div class="mb-3 d-flex border p-1 rounded tamanio">  
                       <input
                          formControlName="email"
-                         style="font-size: 0.7rem; outline: none;width: 25rem;"
                          placeholder="Email"
                          type="text"
-                         class="form-control border-0 email"
+                         class="form-control border-0 textfiel"
                       />    
                     </div>
 
-                    <div class="mb-1 d-flex border p-1 rounded " style="width: 25rem; background-color:#fff">  
-               
+                    <div class="mb-1 d-flex border p-1 rounded tamanio">  
                       <input
                          formControlName="password"
                          style="font-size: 0.7rem;" 
                          placeholder="Password"
                          autocomplete="on"
-                         class="form-control border-0 m-0 password"    
-                      />   
-                      
+                         class="form-control border-0 m-0 textfiel"    
+                      />     
                     </div>
 
                     <div class="row justify-content-between pb-3">
                       <div class="col-8">
                           <div class="float-left">
-
                            <input  type="checkbox">
-
                              <label class="form-check-label"
                                  style="font-size: 0.8rem; margin-left: 5px;color: gray;font-weight: 550;"
                                  for="flexRadioDefault1" >
@@ -175,15 +165,6 @@
                     
                     </div>
                                               
-                  
-                     <!-- <button 
-                       [disabled]="authForm.invalid"
-                       style="background-color: #664ac5; border-color: #664ac5; font-size: 0.7rem; padding: 9px; border-radius: 4%;" 
-                       class="btn btn-primary" type="button">
-                          Login to Continue
-                      </button> -->
-                
-                    <!-- <button (click)="updateApps()" class="btn btn-info">Edit</button> -->
                   </div>
                   <div class="d-flex justify-content-center pr-20">
                     
@@ -195,7 +176,7 @@
                     <div class="d-flex justify-content-center pt-5 pr-20">
                      <div>
                         <a style="font-size: 0.8rem;text-decoration:underline;" 
-                         routerLink="/auth/recover">I forgot my password</a>
+                         routerLink="/auth/password">I forgot my password</a>
                       </div>
                    </div>
 

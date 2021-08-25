@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-auto-views',
   templateUrl: './auto-views.component.html',
   styleUrls: ['./auto-views.component.css']
 })
-export class AutoViewsComponent {
+export class AutoViewsComponent implements OnInit{
 
   title ="Auto Views"
   imagen = "../../../assets/img/img-services/single_service_bkg.png"
@@ -13,4 +13,7 @@ export class AutoViewsComponent {
   pt="100"
   constructor() { }
 
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }
